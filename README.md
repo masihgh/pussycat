@@ -1,11 +1,21 @@
-# PussyCat
+# PussyCat ᓚᘏᗢ
 <img alt="GitHub" src="https://img.shields.io/github/license/Masihgh/pussycat?style=flat-square">
-````
-g hfhfhgfh
-````
 
 
-php sus mvc framework
+```
+
+    /^__^\     /^__^\     /^__^\
+    \____/     \____/     \____/
+   /      \   /      \   /      \
+  |        | |        | |        |
+   \__  __/   \__  __/   \__  __/
+     \ \       / /          \ \
+      \ \     / /            \ \ 
+      / /     \ \            / /
+      \/       \/            \/
+```
+
+
 
 ## Conect us
 <div>
@@ -13,4 +23,7 @@ php sus mvc framework
 <img alt="Instagram" src="https://img.shields.io/badge/Instagram-@ghaznavi.masih-9cf?logo=Instagram&style=social">
 
 </div>
+ 
+
+
 
