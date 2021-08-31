@@ -22,8 +22,8 @@
 # PussyCat ᓚᘏᗢ
 
 # About PussyCat ᓚᘏᗢ
-lll is a very simple and powerful framework for php and supports MVC structure.
-  
+PussyCat is a very simple and powerful framework for php and supports MVC structure.
+
 
 # License
 The PussyCat framework is open-sourced software licensed under the MIT license.
