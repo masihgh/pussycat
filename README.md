@@ -17,6 +17,9 @@
 ```
   
 
+##License
+The PussyCat framework is open-sourced software licensed under the MIT license.
+
 
 
 ## Conect us
