@@ -1,4 +1,5 @@
 # PussyCat
+<img alt="GitHub" src="https://img.shields.io/github/license/Masihgh/pussycat?style=flat-square">
 ```````
                       /^--^\     /^--^\     /^--^\
                       \____/     \____/     \____/
