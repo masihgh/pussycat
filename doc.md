@@ -95,7 +95,7 @@ View::render('Home/index.php', [
 ]);
 ```
 
-The second format uses the [Twig](http://twig.sensiolabs.org/) templating engine. Using Twig allows you to have simpler, safer templates that can take advantage of things like [template inheritance](http://twig.sensiolabs.org/doc/templates.html#template-inheritance). You can render a Twig template like this:
+The second format uses the [Twig](https://twig.symfony.com/) templating engine. Using Twig allows you to have simpler, safer templates that can take advantage of things like [template inheritance](https://twig.symfony.com/doc/templates.html#template-inheritance). You can render a Twig template like this:
 
 ```php
 View::renderTemplate('Home/index.html', [
