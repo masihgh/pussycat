@@ -19,8 +19,6 @@
 </div>
 
 
-# PussyCat ᓚᘏᗢ
-
 # About PussyCat ᓚᘏᗢ
 PussyCat is a very simple and powerful framework for php and supports MVC structure.
 
