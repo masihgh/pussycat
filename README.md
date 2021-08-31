@@ -1,23 +1,31 @@
-# PussyCat ᓚᘏᗢ
-<div>
-<img alt="GitHub" src="https://img.shields.io/github/license/Masihgh/pussycat?style=flat-square">
-<img alt="php" src="https://img.shields.io/badge/php-%5E7.1.3-blueviolet?style=flat-square">
-</div>
-  
 ```
-   A_A							               A_A
-  (-.-)		▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄    (-.-)
-   |-|		█▄─▄▄─█▄─██─▄█─▄▄▄▄█─▄▄▄▄█▄─█─▄█─▄▄▄─██▀▄─██─▄─▄─█     |-|	 
-  /   \ 	██─▄▄▄██─██─██▄▄▄▄─█▄▄▄▄─██▄─▄██─███▀██─▀─████─███    /   \
- |     |  __    ▀▄▄▄▀▀▀▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▄▄▄▀▀▄▄▄▀▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀   |     |  __ 	
- |  || | |  \___		                                     |  || | |  \___
- \_||_/_/			                                      \_||_/_/
+                           A_A							               A_A
+                          (-.-)		▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄    (-.-)
+                           |-|		█▄─▄▄─█▄─██─▄█─▄▄▄▄█─▄▄▄▄█▄─█─▄█─▄▄▄─██▀▄─██─▄─▄─█     |-|	 
+                          /   \ 	██─▄▄▄██─██─██▄▄▄▄─█▄▄▄▄─██▄─▄██─███▀██─▀─████─███    /   \
+                         |     |  __    ▀▄▄▄▀▀▀▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▄▄▄▀▀▄▄▄▀▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀   |     |  __ 	
+                         |  || | |  \___		                                     |  || | |  \___
+                         \_||_/_/			                                      \_||_/_/
  
 
 ```
+
+<div align="center">
+<div>
+<img alt="GitHub" src="https://img.shields.io/github/license/Masihgh/pussycat">
+<img alt="php" src="https://img.shields.io/badge/php-%5E7.1.3-blueviolet">
+ <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Masihgh/pussycat/total">
+</div>
+</div>
+
+
+# PussyCat ᓚᘏᗢ
+
+# About PussyCat ᓚᘏᗢ
+lll is a very simple and powerful framework for php and supports MVC structure.
   
 
-##License
+# License
 The PussyCat framework is open-sourced software licensed under the MIT license.
 
 
