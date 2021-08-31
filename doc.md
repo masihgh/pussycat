@@ -1,26 +1,25 @@
 # Welcome to the PHP MVC framework
 
-This is a simple MVC framework for building web applications in PHP. It's free and [open-source](LICENSE).
 
-It was created for the [Write PHP like a pro: build an MVC framework from scratch](https://davehollingworth.net/phpmvcg) course. The course explains how the framework is put together, building it step-by-step, from scratch. If you've taken the course, then you'll already know how to use it. If not, please follow the instructions below.
+It was created for the Write PHP like a pro: build an MVC framework from scratch course. The course explains how the framework is put together, building it step-by-step, from scratch. If you've taken the course, then you'll already know how to use it. If not, please follow the instructions below.
 
 ## Starting an application using this framework
 
 1. First, download the framework, either directly or by cloning the repo.
 1. Run **composer update** to install the project dependencies.
 1. Configure your web server to have the **public** folder as the web root.
-1. Open [App/Config.php](App/Config.php) and enter your database configuration data.
+1. Open [App/Config.php](https://github.com/Masihgh/pussycat/App/Config.php) and enter your database configuration data.
 1. Create routes, add controllers, views and models.
 
 See below for more details.
 
 ## Configuration
 
-Configuration settings are stored in the [App/Config.php](App/Config.php) class. Default settings include database connection data and a setting to show or hide error detail. You can access the settings in your code like this: `Config::DB_HOST`. You can add your own configuration settings in here.
+Configuration settings are stored in the [App/Config.php](https://github.com/Masihgh/pussycat/App/Config.php) class. Default settings include database connection data and a setting to show or hide error detail. You can access the settings in your code like this: `Config::DB_HOST`. You can add your own configuration settings in here.
 
 ## Routing
 
-The [Router](Core/Router.php) translates URLs into controllers and actions. Routes are added in the [front controller](public/index.php). A sample home route is included that routes to the `index` action in the [Home controller](App/Controllers/Home.php).
+The [Router](Core/Router.php) translates URLs into controllers and actions. Routes are added in the [front controller](https://github.com/Masihgh/pussycat/public/index.php). A sample home route is included that routes to the `index` action in the [Home controller](https://github.com/Masihgh/pussycat/App/Controllers/Home.php).
 
 Routes are added with the `add` method. You can add fixed URL routes, and specify the controller and action, like this:
 
@@ -49,11 +48,11 @@ $router->add('admin/{controller}/{action}', ['namespace' => 'Admin']);
 
 ## Controllers
 
-Controllers respond to user actions (clicking on a link, submitting a form etc.). Controllers are classes that extend the [Core\Controller](Core/Controller.php) class.
+Controllers respond to user actions (clicking on a link, submitting a form etc.). Controllers are classes that extend the [Core\Controller](https://github.com/Masihgh/pussycat/Core/Controller.php) class.
 
-Controllers are stored in the `App/Controllers` folder. A sample [Home controller](App/Controllers/Home.php) included. Controller classes need to be in the `App/Controllers` namespace. You can add subdirectories to organise your controllers, so when adding a route for these controllers you need to specify the namespace (see the routing section above).
+Controllers are stored in the `App/Controllers` folder. A sample [Home controller](https://github.com/Masihgh/pussycat/App/Controllers/Home.php) included. Controller classes need to be in the `App/Controllers` namespace. You can add subdirectories to organise your controllers, so when adding a route for these controllers you need to specify the namespace (see the routing section above).
 
-Controller classes contain methods that are the actions. To create an action, add the **`Action`** suffix to the method name. The sample controller in [App/Controllers/Home.php](App/Controllers/Home.php) has a sample `index` action.
+Controller classes contain methods that are the actions. To create an action, add the **`Action`** suffix to the method name. The sample controller in [App/Controllers/Home.php](https://github.com/Masihgh/pussycat/App/Controllers/Home.php) has a sample `index` action.
 
 You can access route parameters (for example the **id** parameter shown in the route examples above) in actions via the `$this->route_params` property.
 
@@ -105,11 +104,11 @@ View::renderTemplate('Home/index.html', [
 ]);
 ```
 
-A sample Twig template is included in [App/Views/Home/index.html](App/Views/Home/index.html) that inherits from the base template in [App/Views/base.html](App/Views/base.html).
+A sample Twig template is included in [App/Views/Home/index.html](https://github.com/Masihgh/pussycat/App/Views/Home/index.html) that inherits from the base template in [App/Views/base.html](App/Views/base.html).
 
 ## Models
 
-Models are used to get and store data in your application. They know nothing about how this data is to be presented in the views. Models extend the `Core\Model` class and use [PDO](http://php.net/manual/en/book.pdo.php) to access the database. They're stored in the `App/Models` folder. A sample user model class is included in [App/Models/User.php](App/Models/User.php). You can get the PDO database connection instance like this:
+Models are used to get and store data in your application. They know nothing about how this data is to be presented in the views. Models extend the `Core\Model` class and use [PDO](http://php.net/manual/en/book.pdo.php) to access the database. They're stored in the `App/Models` folder. A sample user model class is included in [App/Models/User.php](https://github.com/Masihgh/pussycat/App/Models/User.php). You can get the PDO database connection instance like this:
 
 ```php
 $db = static::getDB();
@@ -117,12 +116,10 @@ $db = static::getDB();
 
 ## Errors
 
-If the `SHOW_ERRORS` configuration setting is set to `true`, full error detail will be shown in the browser if an error or exception occurs. If it's set to `false`, a generic message will be shown using the [App/Views/404.html](App/Views/404.html) or [App/Views/500.html](App/Views/500.html) views, depending on the error.
+If the `SHOW_ERRORS` configuration setting is set to `true`, full error detail will be shown in the browser if an error or exception occurs. If it's set to `false`, a generic message will be shown using the [App/Views/404.html](https://github.com/Masihgh/pussycat/App/Views/404.html) or [App/Views/500.html](https://github.com/Masihgh/pussycat/App/Views/500.html) views, depending on the error.
 
 ## Web server configuration
 
-Pretty URLs are enabled using web server rewrite rules. An [.htaccess](public/.htaccess) file is included in the `public` folder. Equivalent nginx configuration is in the [nginx-configuration.txt](nginx-configuration.txt) file.
+Pretty URLs are enabled using web server rewrite rules. An [.htaccess](https://github.com/Masihgh/pussycat/public/.htaccess) file is included in the `public` folder. Equivalent nginx configuration is in the [nginx-configuration.txt](https://github.com/Masihgh/pussycat/nginx-configuration.txt) file.
 
 ---
-
-Signup for the course [here](https://davehollingworth.net/phpmvcg) and understand how this framework is built from scratch, putting it all together step by step.
