@@ -10,8 +10,8 @@ https://github.com/Masihgh/pussycat.git
 ```
 
 
-### Documention
-You Can See Documention [here](https://masihgh.github.io/pussycat/documention).
+### Documentation
+You Can See Documentation [here](https://masihgh.github.io/pussycat/documentation).
 
 ### Help And Support
 You Can Chat in discussion 
