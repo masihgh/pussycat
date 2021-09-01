@@ -107,6 +107,19 @@ View::renderTemplate('Home/index.html', [
 
 A sample Twig template is included in [App/Views/Home/index.html](https://github.com/Masihgh/pussycat/App/Views/Home/index.html) that inherits from the base template in [App/Views/base.html](App/Views/base.html).
 
+### Import Files
+in config file set app_url
+in public folder for example assets,storage folder
+{{ dir }} in view linked to app_url
+#### link css file
+```html
+<link rel="stylesheet" href="{{ dir }}assets/css/main.css">
+```
+#### link js file
+```html
+<script src="{{ dir }}assets/js/mai.js"></script>
+```
+
 ## Models
 
 Models are used to get and store data in your application. They know nothing about how this data is to be presented in the views. Models extend the `Core\Model` class and use [PDO](http://php.net/manual/en/book.pdo.php) to access the database. They're stored in the `App/Models` folder. A sample user model class is included in [App/Models/User.php](https://github.com/Masihgh/pussycat/App/Models/User.php). You can get the PDO database connection instance like this:
