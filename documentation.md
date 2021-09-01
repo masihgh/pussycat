@@ -1,7 +1,8 @@
-# Welcome to the PHP MVC framework
+# Welcome to the PussyCat FrameWork ᓚᘏᗢ
 
 
-It was created for the Write PHP like a pro: build an MVC framework from scratch course. The course explains how the framework is put together, building it step-by-step, from scratch. If you've taken the course, then you'll already know how to use it. If not, please follow the instructions below.
+a framework for WebDevelop based on the mvc structure.
+The name of this project for Fun because everyone can use it. Completely simple and powerful structure for all your projects
 
 ## Starting an application using this framework
 
@@ -113,7 +114,16 @@ Models are used to get and store data in your application. They know nothing abo
 ```php
 $db = static::getDB();
 ```
-
+### Use Models in Controllers
+#### Step 1 - use
+```php
+use App\Models\User;
+```
+User Name of Models
+#### Step 2 - use
+```php
+$Users = User::getAll();
+```
 ## Errors
 
 If the `SHOW_ERRORS` configuration setting is set to `true`, full error detail will be shown in the browser if an error or exception occurs. If it's set to `false`, a generic message will be shown using the [App/Views/404.html](https://github.com/Masihgh/pussycat/App/Views/404.html) or [App/Views/500.html](https://github.com/Masihgh/pussycat/App/Views/500.html) views, depending on the error.
