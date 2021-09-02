@@ -27,7 +27,7 @@ PussyCat is a very simple and powerful framework for php and supports MVC struct
 * Simple Controller
 
 # PussyCat
-> [Getting Start](https://masihgh.github.io/pussycat/getting-starte) 
+> [Getting Start](https://masihgh.github.io/pussycat/getting-started) 
 
 >[Read Documention](https://masihgh.github.io/pussycat/documentation)
 
