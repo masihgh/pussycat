@@ -113,11 +113,11 @@ in public folder for example assets,storage folder
 {{ dir }} in view linked to app_url
 #### link css file
 ```html
-<link rel="stylesheet" href="{{ dir }}assets/css/main.css">
+<link rel="stylesheet" href="\{\{ dir }\}\assets/css/main.css">
 ```
 #### link js file
 ```html
-<script src="{{ dir }}assets/js/mai.js"></script>
+<script src="\{\{ dir }\}\assets/js/mai.js"></script>
 ```
 
 ## Models
