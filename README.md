@@ -43,7 +43,6 @@ The PussyCat framework is open-sourced software licensed under the MIT license.
 <div>
 <a href="https://t.me/masihghaznavi"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-t.me/masihghaznavi-9cf?logo=telegram&style=social"></a></br>
 <a href="https://instagram.com/ghaznavi_masih"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-@ghaznavi__masih-9cf?logo=Instagram&style=social"></a>
-<a href="https://instagram.com/ghaznavi_masih"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-@ghaznavi__masih-9cf?logo=Instagram&style=social"></a>
 
 </div>
  
