@@ -25,8 +25,7 @@ PussyCat is a very simple and powerful framework for php and supports MVC struct
 * Simple View
 * Simple Model
 * Simple Controller
-* __Ajax Axious__
-* __Wire Frame__
+
 
 
 
