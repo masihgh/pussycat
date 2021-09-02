@@ -3,7 +3,7 @@
 
 >[Read Documention](https://masihgh.github.io/pussycat/documentation)
 
->[Help / Support](https://masihgh.github.io/pussycat/documentation)
+>[Help / Support](https://github.com/Masihgh/pussycat/discussions/2)
 
 <hr>
 

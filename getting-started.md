@@ -15,7 +15,7 @@ You Can See Documentation [here](https://masihgh.github.io/pussycat/documentatio
 
 ### Help And Support
 You Can Chat in discussion 
-[+link](https://github.com/Masihgh/pussycat/discussions/2).
+> [discussion](https://github.com/Masihgh/pussycat/discussions/2).
 
 ### Git:
 
